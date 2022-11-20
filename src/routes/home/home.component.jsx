@@ -30,7 +30,9 @@ const Home = () => {
     ]
 
     return (
-        <Directory categories={categories} />
+        <div>
+            <Directory categories={categories} />
+        </div>
     )
 }
 
